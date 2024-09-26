@@ -208,11 +208,11 @@ When you download a file from the internet, Windows has a security feature that 
 
     1. Type `cp <space>`
 
-    1. Drag the `dog.jpg` image from a Windows Explorer window and drop it onto the terminal window, it should appear as `"/mnt/c/users/username/Downloads/dog.jpg"`
+    1. Find dog.jpg using your terminal, it should appear as `"/mnt/c/Users/username/Downloads/dog.jpg"`
 
     1. Type `<space> .` to tell cp that you want to copy the file to your current working directory.
 
-        1. The full command will look something like `cp "/mnt/c/users/username/Downloads/dog.jpg" .`
+        1. The full command will look something like `cp "/mnt/c/Users/username/Downloads/dog.jpg" .`
 
     1. Hit <kbd>Enter</kbd> to complete the command, and use ls to confirm the file now exists.
 
